@@ -65,6 +65,7 @@ sol y otros objetos del sistema solar, y los vincula usando el método AddAstroO
 después listar la información disponible usando el método Info(). Las clases creadas siguiendo la
 especificación funcionarán correctamente con este programa principal y mostrarán un listado como
 este:
+  
 Estrella: Sol, masa: 1,989E+30, diametro: 1391016
 --->Planeta: Mercurio, masa: 3,302E+23, diametro: 4879
 --->Planeta: Venus, masa: 4,869E+24, diametro: 12103
