@@ -34,6 +34,7 @@ correspondiente a claseAstro, el valor ClaseAstro.Estrella. Además inicializar�
 astrosOrbitantes como una List<Astro> vacía.
 La implementación del método AddAstroOrbitante() comprobará que el parámetro Astro
 suministrado es de la clase Planeta y si lo es, lo añadirá a la lista astrosOrbitantes.
+  
 Clase Planeta
 La clase Planeta descenderá de Astro.
 El constructor de la clase Planeta recibirá como parámetros valores para los campos nombre, masa
