@@ -1,11 +1,11 @@
-## Astros
+# Astros
 
 Realizar un proyecto en Unity llamado Astros con las siguientes especificaciones.
 El objetivo del proyecto es mostrar en la consola de Unity información sobre astros del sistema
 solar para lo que precisamos las clases Astro, Estrella, Planeta y Satelite, que deben ser
 programadas por el alumno.
 
-# Clase Astro
+## Clase Astro
 La clase Astro debe ser una clase declarada abstracta de la que derivarán las otras tres. Contiene la
 funcionalidad común a todos los astros. Debe incluir lo siguiente:
 Un tipo enumerado público, llamado ClaseAstro, que tendrá como miembros los valores
@@ -26,7 +26,7 @@ Astro.
 Un método abstracto llamado AddAstroOrbitante(), que recibirá como parámetro un objeto de la
 clase Astro.
 
-# Clase Estrella
+## Clase Estrella
 La clase Estrella descenderá de Astro.
 El constructor de la clase Estrella recibirá como parámetros valores para los campos nombre,
 masa y diametro. Invocará al constructor de la clase base, pasando en el primer parámetro,
@@ -35,7 +35,7 @@ astrosOrbitantes como una List<Astro> vacía.
 La implementación del método AddAstroOrbitante() comprobará que el parámetro Astro
 suministrado es de la clase Planeta y si lo es, lo añadirá a la lista astrosOrbitantes.
   
-Clase Planeta
+## Clase Planeta
 La clase Planeta descenderá de Astro.
 El constructor de la clase Planeta recibirá como parámetros valores para los campos nombre, masa
 y diametro. Invocará al constructor de la clase base pasando en el primer parámetro,
@@ -46,7 +46,7 @@ suministrado es de la clase Satelite y si lo es, lo añadirá a la lista astrosO
 Se sobreescribirá el método Info(). El método devolverá el string "--->" concatenado con el
 valor devuelto por el método Info() de la clase base.
 
-Clase Satelite
+## Clase Satelite
 La clase Satelite descenderá de Astro.
 El constructor de la clase Satelite recibirá como parámetros valores para los campos nombre,
 masa y diametro. Invocará al constructor de la clase base pasando en el primer parámetro,
@@ -58,7 +58,7 @@ necesario implementarlo.
 Se sobreescribirá el método Info(). El método devolverá el string "------->" concatenado con
 el valor devuelto por el método Info() de la clase base.
 
-Programa principal
+## Programa principal
 Se suministra el archivo Main.cs que contiene un script a modo de programa principal. El método
 Start() de este script crea objetos de las clases Estrella, Planeta y Satelite, representando el
 sol y otros objetos del sistema solar, y los vincula usando el método AddAstroOrbitante() para
