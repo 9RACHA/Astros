@@ -5,7 +5,7 @@ El objetivo del proyecto es mostrar en la consola de Unity información sobre as
 solar para lo que precisamos las clases Astro, Estrella, Planeta y Satelite, que deben ser
 programadas por el alumno.
 
-Clase Astro.
+##Clase Astro.
 La clase Astro debe ser una clase declarada abstracta de la que derivarán las otras tres. Contiene la
 funcionalidad común a todos los astros. Debe incluir lo siguiente:
 Un tipo enumerado público, llamado ClaseAstro, que tendrá como miembros los valores
