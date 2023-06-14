@@ -67,17 +67,31 @@ especificación funcionarán correctamente con este programa principal y mostrar
 este:
   
 Estrella: Sol, masa: 1,989E+30, diametro: 1391016
+
 --->Planeta: Mercurio, masa: 3,302E+23, diametro: 4879
+
 --->Planeta: Venus, masa: 4,869E+24, diametro: 12103
+
 --->Planeta: Tierra, masa: 5,973E+24, diametro: 12742
+
 ------->Satelite: Luna, masa: 7,349E+22, diametro: 3474
+
 --->Planeta: Jupiter, masa: 1,899E+27, diametro: 142984
+
 ------->Satelite: Ío, masa: 8,94E+22, diametro: 3643
+
 ------->Satelite: Europa, masa: 4,8E+22, diametro: 3121
+
 ------->Satelite: Ganimedes, masa: 1,482E+23, diametro: 5268
+
 ------->Satelite: Calisto, masa: 1,076E+23, diametro: 4820
+
 --->Planeta: Saturno, masa: 5,688E+26, diametro: 120536
+
 ------->Satelite: Mimas, masa: 3,749E+19, diametro: 397
+
 ------->Satelite: Encélado, masa: 1,08E+20, diametro: 504
+
 ------->Satelite: Tetis, masa: 6,1745E+20, diametro: 1060
+
 [...]
