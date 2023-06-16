@@ -2,8 +2,7 @@
 
 Realizar un proyecto en Unity llamado Astros con las siguientes especificaciones.
 El objetivo del proyecto es mostrar en la consola de Unity información sobre astros del sistema
-solar para lo que precisamos las clases Astro, Estrella, Planeta y Satelite, que deben ser
-programadas por el alumno.
+solar para lo que precisamos las clases Astro, Estrella, Planeta y Satelite.
 
 ## Clase Astro
 La clase Astro debe ser una clase declarada abstracta de la que derivarán las otras tres. Contiene la
