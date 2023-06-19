@@ -7,10 +7,8 @@ public class Estrella : Astro { //La clase estrella descendera de Astro
     /*El constructor de la clase Estrella recibirá como parametros valores para los campos
     nombre, masa y diametro.*/
     public Estrella(string nombre, float masa, float diametro) : base(ClaseAstro.Estrella, nombre, masa, diametro) {
-    //Invocara al constructor de la clase base, pasando en el 1º parametro correspondiente a claseAstro, el valor claseAstro el valor ClaseAstro.Estrella
-    // AstrosOrbitantes = new List<Astro>();
-    //************************************************************************************************ REVISAR
-     //ADEMAS INICIALIZARA EL CAMPO astrosOrbitantes como una List<Astro> vacia.
+    //Invocara al constructor de la clase base, pasando en el 1º parametro correspondiente a claseAstro, el valor claseAstro el valor ClaseAstro.Estrella 
+    astrosOrbitantes = new List<Astro>(); //Ademas inicializará el campo astrosOrbitantes como una List<Astro> vacia.
     }
 
     /*La implementacion del metodo AddAstroOrbitante() comprobara que el parametro Astro suministrado*/

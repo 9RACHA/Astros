@@ -8,9 +8,10 @@ public class Planeta : Astro {
     //Constructor
     /*El constructor de la clase Planeta recibira como parametros valores para los campos nombre,masa y diametro.*/
     public Planeta(string nombre, float masa, float diametro) : base(ClaseAstro.Planeta, nombre, masa, diametro) {
-    }//Invocara al constructor de la clase base, pasando en el 1º parametro, claseAstro, el valor ClaseAstro.Planeta
-    //------------------------------------------------
+    //Invocara al constructor de la clase base, pasando en el 1º parametro, claseAstro, el valor ClaseAstro.Planeta
+    astrosOrbitantes = new List<Astro>();
     //Ademas inicializara el campo astrosOrbitantes como una List<Astro> vacia.
+    }
 
     //Metodo para añadir un satelite orbitante
     /*La implementacion del metodo AddAstroOrbitante() comprobara que el parametro Astro */
